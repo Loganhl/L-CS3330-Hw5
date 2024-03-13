@@ -32,6 +32,9 @@ public class main {
 		 * Prints pizza order cart
 		 */
 		order.printPizzaOrderCart(1);
+		order.printPizzaOrderCart(2);
+		order.printPizzaOrderCart(3);
+		order.printPizzaOrderCart(4);
 	
 		/**
 		 * attempting to checkout, and throwing an Exception if something occurs
