@@ -1,7 +1,9 @@
 package pkg.PizzaTypes;
 
 class HawaiianPizza extends AbstractPizza{
-	//adding toppings and setting default price
+	/**
+	 * Constructs a Hawaiian pizza with the toppings and default price
+	 */
 	public HawaiianPizza() {
 		toppingList.add(Toppings.CANADIAN_BACON);
 		toppingList.add(Toppings.CHEESE);
@@ -10,14 +12,23 @@ class HawaiianPizza extends AbstractPizza{
 		updatePizzaPrice();
 	}
 	
-	//copy constructor
+	/**
+	 * Copy constructor for Hawaiian pizza
+	 * 
+	 * @param pizza Where attributes are copied from
+	 */
 	public HawaiianPizza(HawaiianPizza pizza) {
 		super(pizza);
 	}
 	
 	
+	/**
+	 * Calculates the price of pizza with the toppigns
+	 * 
+	 * @param priceWithoutToppings The default price of the pizza with no toppings.
+	 * @return The total price after toppings are added
+	 */
 	@Override
-	//adding the toppings onto the price
 	protected double addToppingsToPrice(double priceWithoutToppings) {
 		double total = priceWithoutToppings;
 		for (Toppings topping : toppingList) {
@@ -26,8 +37,13 @@ class HawaiianPizza extends AbstractPizza{
 		return total;
 	}
 	
+	
+	/**
+	 * Updates the price of the pizza
+	 * 
+	 * @return The updated total price.
+	 */
 	@Override
-	//updating the price
 	public double updatePizzaPrice() {
 		totalPrice = addToppingsToPrice(priceWithoutToppings);
 		return totalPrice;

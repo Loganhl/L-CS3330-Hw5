@@ -2,7 +2,9 @@ package pkg.PizzaTypes;
 
 class VegetarianPizza extends AbstractPizza {
 	public VegetarianPizza() {
-		//adding toppings to list and setting default price
+		/**
+		 * Constructs a Vegetarian pizza with the toppings and default price
+		 */
 		toppingList.add(Toppings.TOMATO);
 		toppingList.add(Toppings.CHEESE);
 		toppingList.add(Toppings.BELL_PEPPER);
@@ -12,14 +14,23 @@ class VegetarianPizza extends AbstractPizza {
 		updatePizzaPrice();
 	}
 
-	//copy constructor
+	/**
+	 * Copy constructor for Vegetarian pizza
+	 * 
+	 * @param pizza Where attributes are copied from
+	 */
 	public VegetarianPizza(VegetarianPizza pizza) {
 		super(pizza);
 	}
 	
 	
+	/**
+	 * Calculates the price of pizza with the toppigns
+	 * 
+	 * @param priceWithoutToppings The default price of the pizza with no toppings.
+	 * @return The total price after toppings are added
+	 */
 	@Override
-	//adding the toppings onto the price
 	protected double addToppingsToPrice(double priceWithoutToppings) {
 		double total = priceWithoutToppings;
 		for (Toppings topping : toppingList) {
@@ -28,8 +39,13 @@ class VegetarianPizza extends AbstractPizza {
 		return total;
 	}
 	
+	
+	/**
+	 * Updates the price of the pizza
+	 * 
+	 * @return The updated total price.
+	 */
 	@Override
-	//updating the price
 	public double updatePizzaPrice() {
 		totalPrice = addToppingsToPrice(priceWithoutToppings);
 		return totalPrice;

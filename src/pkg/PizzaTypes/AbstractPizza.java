@@ -19,7 +19,10 @@ public abstract class AbstractPizza {
 		
 	}
 	
-	//constructor
+	/**
+	 * constructs the abstract pizza object with default values
+	 * 
+	 */
 	public AbstractPizza(AbstractPizza pizza) {
         this.toppingList = new ArrayList<>(pizza.toppingList);
         this.priceWithoutToppings = pizza.priceWithoutToppings;
