@@ -93,7 +93,8 @@ public abstract class AbstractPizza {
                 "Price without Toppings: $" + priceWithoutToppings + "\n" +
                 "Total Price: $" + totalPrice + "\n" +
                 "Cooking Strategy: " + cookingStrategy.getClass().getSimpleName() + "\n" +
-                "Cooking Price: $" + cookingPrice;
+                "Cooking Price: $" + cookingPrice + "\n" +
+                "-------------------";
     }
 }
 
