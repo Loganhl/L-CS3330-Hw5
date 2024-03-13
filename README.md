@@ -1,16 +1,20 @@
 # L-CS3330-Hw5
 Homework 05 for OOP
 
-Team L Members<br /> 
+To run the program, run main.java.  
+To access the java doc, navigate to L-CS3330-Hw5\doc in your terminal and run the command
+```py -m http.server```
+in your terminal.  
+Then open http://localhost:8000/ in your web browser.  
 
-Logan Limbaugh - LHLP9P<br /> 
-Kaelyn Crews - KMCXVT<br /> 
-Kyle Williams - KTWMF6<br /> 
+Team L Members  
 
-Contributions<br /> 
-Logan Limbaugh - Created the repository and built the paths to start the project. Created the Pizza Order class. Created the PizzaFactory Class.<br /> 
-Kyle Williams - Created the interface class, as well as the strategy classes.<br /> 
-Kaelyn Crews - Created files and organization, as well as the PizzaType classes. Created Main.<br /> 
+Logan Limbaugh - LHLP9P  
+Kaelyn Crews - KMCXVT  
+Kyle Williams - KTWMF6  
 
-To run the program, run main.java.<br /> 
-To access the java doc, navigate to L-CS3330-Hw5\doc in your terminal and run py -m http.server<br /> 
+Contributions  
+Logan Limbaugh - Created the repository and built the paths to start the project. Created the Pizza Order class. Created the PizzaFactory Class.  
+Kyle Williams - Created the interface class, as well as the strategy classes.  
+Kaelyn Crews - Created files and organization, as well as the PizzaType classes. Created Main.  
+
