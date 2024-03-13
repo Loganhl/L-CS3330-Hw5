@@ -84,6 +84,17 @@ public abstract class AbstractPizza {
 	public void setCookingPrice(double cookingPrice) {
 		this.cookingPrice = cookingPrice;
 	}
+	
+	@Override
+    public String toString() {
+        return "Pizza Type: " + getClass().getSimpleName() + "\n" +
+                "Pizza Order ID: " + pizzaOrderID + "\n" +
+                "Topping List: " + toppingList + "\n" +
+                "Price without Toppings: $" + priceWithoutToppings + "\n" +
+                "Total Price: $" + totalPrice + "\n" +
+                "Cooking Strategy: " + cookingStrategy.getClass().getSimpleName() + "\n" +
+                "Cooking Price: $" + cookingPrice;
+    }
 }
 
 
