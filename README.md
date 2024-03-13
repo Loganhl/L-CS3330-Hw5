@@ -3,8 +3,7 @@ Homework 05 for OOP
 
 To run the program, run main.java.  
 To access the java doc, navigate to L-CS3330-Hw5\doc in your terminal and run the command
-```py -m http.server```
-in your terminal.  
+```py -m http.server```  
 Then open http://localhost:8000/ in your web browser.  
 
 Team L Members  
