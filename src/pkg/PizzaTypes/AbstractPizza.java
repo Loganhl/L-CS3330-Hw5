@@ -32,21 +32,53 @@ public abstract class AbstractPizza {
         this.cookingPrice = pizza.cookingPrice;
     }
 	
-	protected void addDefaultToppings() {
-		
-	}
-	
-	protected void setDefaultPriceWithoutToppings() {
-		
-	}
-	
 	public abstract double updatePizzaPrice();
 	
 	protected abstract double addToppingsToPrice(double priceWithoutToppings);
 	
+	//getter and setter methods
+	public List<Toppings> getToppingList() {
+		return toppingList;
+	}
+	
+	public void setToppingList(List<Toppings> toppingList) {
+        this.toppingList = toppingList;
+    }
+
+    public double getPriceWithoutToppings() {
+        return priceWithoutToppings;
+    }
+
+    public void setPriceWithoutToppings(double priceWithoutToppings) {
+        this.priceWithoutToppings = priceWithoutToppings;
+    }
+
+    public double getTotalPrice() {
+        return totalPrice;
+    }
+
+    public void setTotalPrice(double totalPrice) {
+        this.totalPrice = totalPrice;
+    }
+
+    public int getPizzaOrderID() {
+        return pizzaOrderID;
+    }
+
+    public void setPizzaOrderID(int pizzaOrderID) {
+        this.pizzaOrderID = pizzaOrderID;
+    }
+    
+    public ICookingStrategy getCookingStrategy() {
+    	return cookingStrategy;
+    }
+	
 	public void setCookingStrategy(ICookingStrategy cookingStrategy) {
 		this.cookingStrategy = cookingStrategy;
-		
+	}
+	
+	public double getCookingPrice() {
+		return cookingPrice;
 	}
 	
 	public void setCookingPrice(double cookingPrice) {
