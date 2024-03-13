@@ -23,15 +23,15 @@ public class main {
 		/**
 		 * Sets the cooking strategies for the pizzas in the cart
 		 */
-		order.selectCookingStrategyByPizzaOrderID(0, CookingStyleType.BRICK_OVEN);
-		order.selectCookingStrategyByPizzaOrderID(1, CookingStyleType.MICROWAVE);
-		order.selectCookingStrategyByPizzaOrderID(2, CookingStyleType.CONVENTIONAL_OVEN);
-		order.selectCookingStrategyByPizzaOrderID(3, CookingStyleType.MICROWAVE);
+		order.selectCookingStrategyByPizzaOrderID(1, CookingStyleType.BRICK_OVEN);
+		order.selectCookingStrategyByPizzaOrderID(2, CookingStyleType.MICROWAVE);
+		order.selectCookingStrategyByPizzaOrderID(3, CookingStyleType.CONVENTIONAL_OVEN);
+		order.selectCookingStrategyByPizzaOrderID(4, CookingStyleType.MICROWAVE);
 		
 		/**
 		 * Prints pizza order cart
 		 */
-		order.printPizzaOrderCart(0);
+		order.printPizzaOrderCart(1);
 	
 		/**
 		 * attempting to checkout, and throwing an Exception if something occurs
