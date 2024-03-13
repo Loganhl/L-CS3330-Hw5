@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"pkg"},{"l":"pkg.Cooking"},{"l":"pkg.Cooking.Strategy"},{"l":"pkg.PizzaTypes"}];updateSearchResults();
