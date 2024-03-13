@@ -1,13 +1,13 @@
 # L-CS3330-Hw5
 Homework 05 for OOP
 
-Team L Members
+Team L Members<br /> 
 
-Logan Limbaugh - LHLP9P
-Kaelyn Crews - KMCXVT
-Kyle Williams - KTWMF6
+Logan Limbaugh - LHLP9P<br /> 
+Kaelyn Crews - KMCXVT<br /> 
+Kyle Williams - KTWMF6<br /> 
 
-Contributions
-Logan Limbaugh - Created the repository and built the paths to start the project. Created the Pizza Order class.
-Kyle Williams - Created the interface class, as well as the strategy classes.
-Kaelyn Crews - Created files and organization, as well as the PizzaType classes.
+Contributions<br /> 
+Logan Limbaugh - Created the repository and built the paths to start the project. Created the Pizza Order class.<br /> 
+Kyle Williams - Created the interface class, as well as the strategy classes.<br /> 
+Kaelyn Crews - Created files and organization, as well as the PizzaType classes.<br /> 
