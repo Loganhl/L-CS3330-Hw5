@@ -1,5 +1,11 @@
 package pkg;
 
-public class ICookingStrategy {
 
-}
+	public interface ICookingStrategy{
+		
+		boolean cook (AbstractPizza pizza);
+			
+		
+	}
+
+
