@@ -2,7 +2,7 @@ package pkg.Cooking.Strategy;
 
 import pkg.PizzaTypes.AbstractPizza;
 
-class ConventionalOvenCookingStrategy implements ICookingStrategy {
+public class ConventionalOvenCookingStrategy implements ICookingStrategy {
     
     public boolean cook(AbstractPizza pizza) {
         pizza.setCookingStrategy(this);

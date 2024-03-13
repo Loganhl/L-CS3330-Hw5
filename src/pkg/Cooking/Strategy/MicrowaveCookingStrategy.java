@@ -2,7 +2,7 @@ package pkg.Cooking.Strategy;
 
 import pkg.PizzaTypes.AbstractPizza;
 
-class MicrowaveCookingStrategy implements ICookingStrategy {
+public class MicrowaveCookingStrategy implements ICookingStrategy {
     
     public boolean cook(AbstractPizza pizza) {
         if (pizza != null) {
