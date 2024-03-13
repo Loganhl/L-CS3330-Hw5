@@ -1,4 +1,6 @@
-package pkg;
+package pkg.Cooking.Strategy;
+
+import pkg.PizzaTypes.AbstractPizza;
 
 public class BrickOvenCookingStrategy implements ICookingStrategy{
 	

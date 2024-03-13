@@ -1,6 +1,8 @@
-package pkg;
+package pkg.PizzaTypes;
 import java.util.ArrayList;
 import java.util.List;
+
+import pkg.Cooking.Strategy.ICookingStrategy;
 
 public abstract class AbstractPizza {
 	protected List<Toppings> toppingList;

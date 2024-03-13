@@ -1,4 +1,4 @@
-package pkg;
+package pkg.Cooking;
 
 public enum CookingStyleType {
 	MICROWAVE,

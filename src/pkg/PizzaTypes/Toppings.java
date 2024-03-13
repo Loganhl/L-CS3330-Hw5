@@ -1,4 +1,4 @@
-package pkg;
+package pkg.PizzaTypes;
 
 public enum Toppings {
     TOMATO(1.50),

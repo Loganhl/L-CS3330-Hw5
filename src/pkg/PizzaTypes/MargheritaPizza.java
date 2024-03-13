@@ -1,4 +1,4 @@
-package pkg;
+package pkg.PizzaTypes;
 
 public class MargheritaPizza {
 

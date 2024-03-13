@@ -1,4 +1,4 @@
-package pkg;
+package pkg.Cooking.Strategy;
 
 public class MicrowaveCookingStrategy {
 
