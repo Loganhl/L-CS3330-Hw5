@@ -1,6 +1,6 @@
 package pkg.PizzaTypes;
 
-class VegetarianPizza extends AbstractPizza {
+public class VegetarianPizza extends AbstractPizza {
 	public VegetarianPizza() {
 		/**
 		 * Constructs a Vegetarian pizza with the toppings and default price

@@ -1,6 +1,6 @@
 package pkg.PizzaTypes;
 
-class SupremePizza extends AbstractPizza {
+public class SupremePizza extends AbstractPizza {
 	public SupremePizza() {
 		/**
 		 * Constructs a Supreme pizza with the toppings and default price

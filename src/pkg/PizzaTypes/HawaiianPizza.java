@@ -1,6 +1,6 @@
 package pkg.PizzaTypes;
 
-class HawaiianPizza extends AbstractPizza{
+public class HawaiianPizza extends AbstractPizza{
 	/**
 	 * Constructs a Hawaiian pizza with the toppings and default price
 	 */
